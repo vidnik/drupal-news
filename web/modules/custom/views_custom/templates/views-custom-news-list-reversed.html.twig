@@ -1,0 +1,52 @@
+{#
+/**
+ * @file views-custom-news-list-reversed.html.twig
+ * View template to display custom news reversed list.
+ *
+ *
+ * - rows: Contains a nested array of rows. Each row contains an array of
+ *   columns.
+ *
+ * @ingroup views_templates
+ */
+#}
+
+<div>
+  {% for key, row in rows %}
+  <div class="row">
+    <div class="col-sm-4 grid-margin">
+      <div class="position-relative">
+        <div class="rotate-img">
+          {% if row.image %}
+            {{ row.image }}
+          {% endif %}
+        </div>
+        <div class="badge-positioned">
+      <span class="badge badge-danger font-weight-bold">
+        {% if row.taxonomy %}
+          {{ row.taxonomy }}
+        {% endif %}
+      </span>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8  grid-margin">
+      <h2 class="mb-2 font-weight-600">
+        {% if row.title %}
+          {{ row.title }}
+        {% endif %}
+      </h2>
+      <div class="fs-13 mb-2">
+        {% if row.date %}
+          {{ row.date }}
+        {% endif %}
+      </div>
+      <p class="mb-0">
+        {% if row.content %}
+          {{ row.content }}
+        {% endif %}
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+</div>

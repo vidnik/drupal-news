@@ -1,0 +1,31 @@
+name: 'Another News'
+type: theme
+description: 'Another News subtheme based on Bootstrap 5 theme.'
+core_version_requirement: ^9.2
+'base theme': bootstrap5
+libraries:
+  - another_news/global-styling
+ckeditor_stylesheets:
+  - css/style.css
+ckeditor5-stylesheets:
+  - css/ck5style.css
+stylesheets-remove:
+  - '@bootstrap5/css/style.css'
+regions:
+  header_left: "Left header part"
+  header_right: "Right header part"
+  nav_main: 'Main navigation region'
+  nav_branding: 'Navigation branding region'
+  line_banner: 'Line banner'
+  main_banner: 'Main news banner'
+  top_right_panel: 'Top right panel'
+  sidebar_left: 'Left sidebar'
+  sidebar_right: "Right sidebar"
+  tab_one: "Tab one"
+  tab_two: "Tab two"
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  quick_about: "Short website info"
+  social_icons: "Social icons"
+  footer: Footer
+  highlighted: Highlighted

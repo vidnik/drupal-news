@@ -1,0 +1,28 @@
+// Sub theme styling.
+@import 'variables_drupal';
+@import 'overrides/variables';
+
+
+// Bootstrap overriden variables.
+// @see https://getbootstrap.com/docs/5.2/customize/sass/#variable-defaults.
+@import 'variables_bootstrap';
+
+// Include bootstrap.
+@import '../../../../themes/contrib/bootstrap5/scss/style';
+
+@import 'variables';
+// Include custom sub theme.
+@import 'custom/badges/badges';
+@import 'custom/article/article';
+@import 'custom/banner/banner';
+@import 'custom/buttons/buttons';
+@import 'custom/cards/cards';
+@import 'custom/error/error';
+@import 'custom/fonts/fonts';
+@import 'custom/footer/footer';
+@import 'custom/forms/forms';
+@import 'custom/mixins/buttons';
+@import 'custom/navbar/navbar';
+@import 'custom/pagination/pagination';
+@import 'custom/typography/typography';
+@import 'custom/wrapper/wrapper';

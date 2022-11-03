@@ -1,0 +1,15 @@
+.line-banner-text {
+  margin-left: 2rem;
+  color: $secondary;
+  line-height: 1.8;
+  font-size: 15px;
+  .date {
+    margin-left: auto;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    font-size: 15px;
+    color: $secondary;
+  }
+}

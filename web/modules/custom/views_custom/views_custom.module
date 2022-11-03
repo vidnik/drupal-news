@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Custom functions for Views Custom.
+ */
+
+use Drupal\views_custom\ViewsCustom;
+
+/**
+ * Implements hook_theme().
+ */
+function views_custom_theme(): array
+{
+  return ViewsCustom::getThemeHooks();
+}

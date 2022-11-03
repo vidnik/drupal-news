@@ -1,0 +1,13 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      vendors/aos/dist/aos.css/aos.css: {}
+      vendors/mdi/css/materialdesignicons.min.css: {}
+  js:
+    js/demo.js: {}
+    vendors/aos/dist/aos.js/aos.js: {}
+    vendors/js/vendor.bundle.base.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

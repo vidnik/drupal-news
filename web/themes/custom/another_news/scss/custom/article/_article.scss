@@ -1,0 +1,54 @@
+.article-text {
+  p {
+    color: $darkslategray;
+    font-size: 17px;
+  }
+}
+
+.article-image {
+  img {
+    width: 100%;
+    height: initial;
+  }
+}
+
+.authored {
+  img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.comment-author {
+  img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.separator {
+  background-color: $secondary;
+  width: 37px;
+  height: 2px;
+}
+
+.comments {
+  a {
+    text-decoration: none;
+    color: $secondary;
+  }
+}
+
+.related-topics {
+  a {
+    text-decoration: none;
+    color: $white;
+    background-color: $primary;
+    padding: 5px;
+    border-radius: 3px;
+  }
+}
